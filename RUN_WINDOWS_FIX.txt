@@ -1,0 +1,13 @@
+If npm install fails with ETIMEDOUT or vite is not recognized:
+
+1) Close VS Code terminals and stop any running node/vite process.
+2) Open CMD as Administrator in this folder.
+3) Run:
+   npm config set registry https://registry.npmjs.org/
+   rmdir /s /q node_modules
+   del package-lock.json
+   npm cache clean --force
+   npm install
+   npm run dev
+
+If rmdir says the folder is in use, restart the computer and run the commands again.

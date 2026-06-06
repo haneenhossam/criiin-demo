@@ -1,0 +1,30 @@
+GLOBAL HOSTING STEPS (VERCEL)
+
+1) Open this folder in VS Code / terminal.
+2) Make sure npm uses the public registry:
+   npm config set registry https://registry.npmjs.org/
+
+3) Install and test locally:
+   npm install
+   npm run build
+   npm run dev
+
+4) Push to GitHub:
+   git init
+   git add .
+   git commit -m "Deploy CRIIIN demo"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git push -u origin main
+
+5) Deploy on Vercel:
+   - Go to https://vercel.com/new
+   - Import the GitHub repo
+   - Framework Preset: Vite
+   - Build Command: npm run build
+   - Output Directory: dist
+   - Click Deploy
+
+6) Login accounts in the demo:
+   manager@mgr.com  -> CRIIIN dashboard
+   user@user.com     -> V-Rewards user waste scan UI

@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11715</WindowHeight>
+  <WindowWidth>25200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Page Terms">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="130.5"/>
+   <Column ss:Width="126"/>
+   <Column ss:Width="263.25"/>
+   <Column ss:Width="287.25"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Page</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Term</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Meaning</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Why It Matters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">CRIIN</Data></Cell>
+    <Cell><Data ss:Type="String">Climate Resilient Infrastructure Intelligence Network</Data></Cell>
+    <Cell><Data ss:Type="String">The platform identity and overall mission</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">P1</Data></Cell>
+    <Cell><Data ss:Type="String">Diesel-main sites</Data></Cell>
+    <Cell><Data ss:Type="String">Highest direct diesel displacement use case</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">P2</Data></Cell>
+    <Cell><Data ss:Type="String">Grid-main / diesel-backup</Data></Cell>
+    <Cell><Data ss:Type="String">Clean energy reduces backup generator runtime</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">P3</Data></Cell>
+    <Cell><Data ss:Type="String">Electricity-only resilience</Data></Cell>
+    <Cell><Data ss:Type="String">Focus is resilience rather than diesel savings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Waste-to-Energy</Data></Cell>
+    <Cell><Data ss:Type="String">Turning waste streams into usable energy</Data></Cell>
+    <Cell><Data ss:Type="String">Core logic behind opportunity sizing and recommendations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">High pollution threshold</Data></Cell>
+    <Cell><Data ss:Type="String">Minimum pollution score used in filtering</Data></Cell>
+    <Cell><Data ss:Type="String">Controls which sites appear in the dashboard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Max distance to source</Data></Cell>
+    <Cell><Data ss:Type="String">Maximum km allowed between site and source</Data></Cell>
+    <Cell><Data ss:Type="String">Keeps results operationally realistic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Potential Energy</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated recoverable energy from filtered sites</Data></Cell>
+    <Cell><Data ss:Type="String">Top-level opportunity KPI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Diesel Benefit</Data></Cell>
+    <Cell><Data ss:Type="String">Potential diesel liters displaced per month</Data></Cell>
+    <Cell><Data ss:Type="String">Links environment to telecom operating cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Dominant Waste</Data></Cell>
+    <Cell><Data ss:Type="String">Most common waste type in the filtered view</Data></Cell>
+    <Cell><Data ss:Type="String">Hints at best-fit technology direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Live Pollution Map</Data></Cell>
+    <Cell><Data ss:Type="String">Observations In View</Data></Cell>
+    <Cell><Data ss:Type="String">Count of visible pollution readings</Data></Cell>
+    <Cell><Data ss:Type="String">Shows current data scope on the map</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Live Pollution Map</Data></Cell>
+    <Cell><Data ss:Type="String">Average Pollution</Data></Cell>
+    <Cell><Data ss:Type="String">Mean pollution score of visible readings</Data></Cell>
+    <Cell><Data ss:Type="String">Quick hotspot intensity indicator</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Live Pollution Map</Data></Cell>
+    <Cell><Data ss:Type="String">Attributed source</Data></Cell>
+    <Cell><Data ss:Type="String">Nearest linked pollution source</Data></Cell>
+    <Cell><Data ss:Type="String">Explains where the reading is coming from</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Live Pollution Map</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated diesel impact</Data></Cell>
+    <Cell><Data ss:Type="String">Approximate diesel burden linked to the point</Data></Cell>
+    <Cell><Data ss:Type="String">Connects map intelligence to telecom operations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Volume</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated tons of waste per month</Data></Cell>
+    <Cell><Data ss:Type="String">Main driver of energy output and hardware sizing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Distance to Pollution</Data></Cell>
+    <Cell><Data ss:Type="String">Distance from the site to the source area</Data></Cell>
+    <Cell><Data ss:Type="String">Affects collection feasibility and relevance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Generated</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated kWh/day from the site</Data></Cell>
+    <Cell><Data ss:Type="String">Primary technical output of the opportunity</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">CAPEX</Data></Cell>
+    <Cell><Data ss:Type="String">Capital expenditure required for deployment</Data></Cell>
+    <Cell><Data ss:Type="String">Feeds ROI and investment decisions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">On-wheel deployment</Data></Cell>
+    <Cell><Data ss:Type="String">Mobile deployment option</Data></Cell>
+    <Cell><Data ss:Type="String">Alternative field deployment mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">ROI / Payback</Data></Cell>
+    <Cell><Data ss:Type="String">Years needed to recover investment cost</Data></Cell>
+    <Cell><Data ss:Type="String">Most visible finance metric</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Primary hardware</Data></Cell>
+    <Cell><Data ss:Type="String">Top recommended hardware for the strongest mix</Data></Cell>
+    <Cell><Data ss:Type="String">Default engineering recommendation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Dynamic hardware CAPEX</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware cost adjusted to site and waste mix</Data></Cell>
+    <Cell><Data ss:Type="String">Avoids flat unrealistic costing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Annual profit</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated yearly value after indicative operating cost</Data></Cell>
+    <Cell><Data ss:Type="String">Simplifies business case discussion</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">ESG score</Data></Cell>
+    <Cell><Data ss:Type="String">Sustainability impact score</Data></Cell>
+    <Cell><Data ss:Type="String">Bridges site output to executive impact language</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AI Recommendations</Data></Cell>
+    <Cell><Data ss:Type="String">AI Weights</Data></Cell>
+    <Cell><Data ss:Type="String">User-adjustable weights for scoring sites</Data></Cell>
+    <Cell><Data ss:Type="String">Lets users tune strategic ranking logic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AI Recommendations</Data></Cell>
+    <Cell><Data ss:Type="String">Portfolio ROI</Data></Cell>
+    <Cell><Data ss:Type="String">Blended payback across selected sites</Data></Cell>
+    <Cell><Data ss:Type="String">Executive view for multi-site rollout</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Digital Twin Simulation</Data></Cell>
+    <Cell><Data ss:Type="String">Feedstock availability</Data></Cell>
+    <Cell><Data ss:Type="String">Percent of waste actually available to run the model</Data></Cell>
+    <Cell><Data ss:Type="String">Improves realism of simulation output</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Digital Twin Simulation</Data></Cell>
+    <Cell><Data ss:Type="String">Tower Coverage</Data></Cell>
+    <Cell><Data ss:Type="String">How many telecom towers the output can support</Data></Cell>
+    <Cell><Data ss:Type="String">Connects simulation to telecom operations</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Time Series</Data></Cell>
+    <Cell><Data ss:Type="String">Latest Actual Pollution</Data></Cell>
+    <Cell><Data ss:Type="String">Current site pollution level</Data></Cell>
+    <Cell><Data ss:Type="String">Baseline for trend and forecast interpretation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Time Series</Data></Cell>
+    <Cell><Data ss:Type="String">14-Day Forecast Avg</Data></Cell>
+    <Cell><Data ss:Type="String">Average projected pollution over the forecast window</Data></Cell>
+    <Cell><Data ss:Type="String">Forward planning signal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Time Series</Data></Cell>
+    <Cell><Data ss:Type="String">Regional Benchmark</Data></Cell>
+    <Cell><Data ss:Type="String">Reference pollution line for the broader area</Data></Cell>
+    <Cell><Data ss:Type="String">Adds context to site behavior</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Site Monitoring Actions</Data></Cell>
+    <Cell><Data ss:Type="String">Uptime</Data></Cell>
+    <Cell><Data ss:Type="String">Operational availability percentage</Data></Cell>
+    <Cell><Data ss:Type="String">Core live operations KPI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Site Monitoring Actions</Data></Cell>
+    <Cell><Data ss:Type="String">Load</Data></Cell>
+    <Cell><Data ss:Type="String">Current operating load percentage</Data></Cell>
+    <Cell><Data ss:Type="String">Useful for stress and performance monitoring</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Site Monitoring Actions</Data></Cell>
+    <Cell><Data ss:Type="String">Live Alerts</Data></Cell>
+    <Cell><Data ss:Type="String">Current active abnormal conditions</Data></Cell>
+    <Cell><Data ss:Type="String">Immediate operations attention area</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Energy Marketplace</Data></Cell>
+    <Cell><Data ss:Type="String">Unused Energy</Data></Cell>
+    <Cell><Data ss:Type="String">Energy available for sale after local use</Data></Cell>
+    <Cell><Data ss:Type="String">Core marketplace supply number</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Energy Marketplace</Data></Cell>
+    <Cell><Data ss:Type="String">Nearby Buyers</Data></Cell>
+    <Cell><Data ss:Type="String">Closest energy offtake candidates</Data></Cell>
+    <Cell><Data ss:Type="String">Defines commercialization options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Energy Marketplace</Data></Cell>
+    <Cell><Data ss:Type="String">Wheeling readiness</Data></Cell>
+    <Cell><Data ss:Type="String">Whether residual energy can be routed further</Data></Cell>
+    <Cell><Data ss:Type="String">Operational feasibility of extended sale routes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ESG Impact</Data></Cell>
+    <Cell><Data ss:Type="String">CO2 Reduced</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated avoided emissions</Data></Cell>
+    <Cell><Data ss:Type="String">Primary sustainability KPI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ESG Impact</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Diverted</Data></Cell>
+    <Cell><Data ss:Type="String">Waste shifted away from uncontrolled disposal</Data></Cell>
+    <Cell><Data ss:Type="String">Circular economy outcome</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ESG Impact</Data></Cell>
+    <Cell><Data ss:Type="String">Carbon Value</Data></Cell>
+    <Cell><Data ss:Type="String">Indicative economic framing of carbon impact</Data></Cell>
+    <Cell><Data ss:Type="String">Helps translate ESG into business language</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hardware Catalog</Data></Cell>
+    <Cell><Data ss:Type="String">Sensors / Includes</Data></Cell>
+    <Cell><Data ss:Type="String">Sensors and components in a hardware bundle</Data></Cell>
+    <Cell><Data ss:Type="String">Defines technical capability of the package</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hardware Catalog</Data></Cell>
+    <Cell><Data ss:Type="String">Cost Method</Data></Cell>
+    <Cell><Data ss:Type="String">How hardware cost is estimated or interpreted</Data></Cell>
+    <Cell><Data ss:Type="String">Supports planning transparency</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CRIIN AI Assistant</Data></Cell>
+    <Cell><Data ss:Type="String">Selected Site Context</Data></Cell>
+    <Cell><Data ss:Type="String">Current site is injected into assistant reasoning</Data></Cell>
+    <Cell><Data ss:Type="String">Makes AI answers site-aware instead of generic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Settings / Auth</Data></Cell>
+    <Cell><Data ss:Type="String">Role-based visibility</Data></Cell>
+    <Cell><Data ss:Type="String">Visible pages depend on email role mapping</Data></Cell>
+    <Cell><Data ss:Type="String">Main access-control behavior in the current app</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <TopRowVisible>15</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Auth Matrix">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="57"/>
+   <Column ss:Width="70.5"/>
+   <Column ss:Width="110.25"/>
+   <Column ss:Width="951"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Role</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Email Pattern</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Default Landing Page</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Visible Sidebar Pages</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Hidden But Accessible</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Primary Persona / Focus</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manager</Data></Cell>
+    <Cell><Data ss:Type="String">@mgr.com</Data></Cell>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | AI Recommendations | Live Pollution Map | Time Series | Waste Intelligence | Site Monitoring Actions | ESG Impact | Energy Marketplace | CRIIN AI Assistant | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation | Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Executive steering, prioritization, ROI and ESG review</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">User</Data></Cell>
+    <Cell><Data ss:Type="String">@user.com</Data></Cell>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | AI Recommendations | Live Pollution Map | Waste Intelligence | Energy Marketplace | CRIIN AI Assistant | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation | Settings</Data></Cell>
+    <Cell><Data ss:Type="String">General user reviewing opportunity and site outputs</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Operations</Data></Cell>
+    <Cell><Data ss:Type="String">@ops.com</Data></Cell>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | AI Recommendations | Live Pollution Map | Time Series | Waste Intelligence | Site Monitoring Actions | ESG Impact | Energy Marketplace | CRIIN AI Assistant | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation | Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Cluster to site to deployment execution flow</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Technical</Data></Cell>
+    <Cell><Data ss:Type="String">@tech.com</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | Live Pollution Map | Time Series | Waste Intelligence | Site Monitoring Actions | CRIIN AI Assistant | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation | Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Site drill-down, simulation and hardware validation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Admin</Data></Cell>
+    <Cell><Data ss:Type="String">@admin.com</Data></Cell>
+    <Cell><Data ss:Type="String">Overview</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | AI Recommendations | Live Pollution Map | Time Series | Waste Intelligence | Site Monitoring Actions | ESG Impact | Energy Marketplace | CRIIN AI Assistant | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation | Settings</Data></Cell>
+    <Cell><Data ss:Type="String">Full supervisory review across the platform</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sidebar Vision">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="134.25"/>
+   <Column ss:Width="253.5"/>
+   <Column ss:Width="330"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sidebar Group</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Pages Shown In Sidebar</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Intent / Reading Order</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Executive Layer</Data></Cell>
+    <Cell><Data ss:Type="String">Overview | AI Recommendations</Data></Cell>
+    <Cell><Data ss:Type="String">Start with national summary then move to ranked opportunities</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Environmental Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Live Pollution Map | Time Series | ESG Impact</Data></Cell>
+    <Cell><Data ss:Type="String">Read pollution status, trend, and sustainability effect</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Opportunity Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Waste Intelligence</Data></Cell>
+    <Cell><Data ss:Type="String">Move from a selected site into deployment, ROI, and hardware logic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Site Operations</Data></Cell>
+    <Cell><Data ss:Type="String">Site Monitoring Actions | Who We Are &amp; Knowledge</Data></Cell>
+    <Cell><Data ss:Type="String">Monitor operations and keep reference context nearby</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Infrastructure</Data></Cell>
+    <Cell><Data ss:Type="String">Energy Marketplace</Data></Cell>
+    <Cell><Data ss:Type="String">Monetize unused clean energy around the selected site</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Platform</Data></Cell>
+    <Cell><Data ss:Type="String">CRIIN AI Assistant</Data></Cell>
+    <Cell><Data ss:Type="String">Ask expert questions across any part of the application</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hidden Flow</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware Catalog | Digital Twin Simulation</Data></Cell>
+    <Cell><Data ss:Type="String">Opened only from Waste Intelligence, not from sidebar</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
